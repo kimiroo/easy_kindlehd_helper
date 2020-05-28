@@ -41,7 +41,7 @@
         var latestVersion = "3.0.2.254_all-khd10 (DARAK)"
 
         if (appVersion=="") {
-            var appVersion = "Null"
+            var appVersion = "null"
         }
 
         document.getElementById('latVer').innerHTML = latestVersion;
@@ -49,7 +49,7 @@
     
         if (appVersion==latestVersion) {
             document.getElementById('curStat').innerHTML = 'You are on the latest version!';
-        } else if (appVersion=="Null") {
+        } else if (appVersion=="null") {
             document.getElementById('curStat').innerHTML = 'An error occurred.<br>Invalid request.';
         } else {
             document.getElementById('curStat').innerHTML = 'Update available.<br>Please click the button below.';
