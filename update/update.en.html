@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Kindle HD Helper Updater</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class="mt-5">App Updater</h1>
+            <p class="lead">Update the Kindle HD Helper<br>to get the latest information.</p>
+            <ul class="list-unstyled">
+                <div class="container">
+                    <li>Latest version: <span id="latVer"></span></li>
+                    <li>Current version: <span id="curVer"></span></li>
+                </div>
+            </ul>
+            <p class="lead"><span id="curStat"></span></p>
+            <span id="btnUpdate"></span>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Updater Script -->
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+    
+        var appVersion = urlParams.get('v');
+        var latestVersion = "3.0.2.254_all-khd10 (DARAK)"
+
+        if (appVersion=="") {
+            var appVersion = "Null"
+        }
+
+        document.getElementById('latVer').innerHTML = latestVersion;
+        document.getElementById('curVer').innerHTML = appVersion;
+    
+        if (appVersion==latestVersion) {
+            document.getElementById('curStat').innerHTML = 'You are on the latest version!';
+        } else if (appVersion=="Null") {
+            document.getElementById('curStat').innerHTML = 'An error occurred.<br>Invalid request.';
+        } else {
+            document.getElementById('curStat').innerHTML = 'Update available.<br>Please click the button below.';
+            document.getElementById('btnUpdate').innerHTML = '<a href="https://www.google.com/"><button type="button" class="btn btn-primary">Download update</button></a>';
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>킨들 HD 도우미 업데이트</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class="mt-5">앱 업데이트</h1>
+            <p class="lead">앱을 최신 버전으로 업데이트하시면<br>최신 정보를 받으실 수 있습니다.</p>
+            <ul class="list-unstyled">
+                <div class="container">
+                    <li>최신 버전: <span id="latVer"></span></li>
+                    <li>현재 버전: <span id="curVer"></span></li>
+                </div>
+            </ul>
+            <p class="lead"><span id="curStat"></span></p>
+            <span id="btnUpdate"></span>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Updater Script -->
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+    
+        var appVersion = urlParams.get('v');
+        var latestVersion = "3.0.2.254_all-khd10 (DARAK)"
+
+        if (appVersion=="") {
+            var appVersion = "Null"
+        }
+
+        document.getElementById('latVer').innerHTML = latestVersion;
+        document.getElementById('curVer').innerHTML = appVersion;
+    
+        if (appVersion==latestVersion) {
+            document.getElementById('curStat').innerHTML = '최신버전입니다!';
+        } else if (appVersion=="Null") {
+            document.getElementById('curStat').innerHTML = '오류가 발생했습니다.<br>정상적인 요청이 아닙니다.';
+        } else {
+            document.getElementById('curStat').innerHTML = '업데이트가 필요합니다.<br>아래의 버튼을 눌러주세요.';
+            document.getElementById('btnUpdate').innerHTML = '<a href="https://www.google.com/"><button type="button" class="btn btn-primary">업데이트 다운로드</button></a>';
+        }
+    
+    </script>
+</body>
+</html>
