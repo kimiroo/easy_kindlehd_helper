@@ -15,8 +15,12 @@
         var appVersion = urlParams.get('v');
         var appLang = urlParams.get('l');
 
-        if (appLang=='') {
-            var appLang = 'en'
+        if (appLang=='en') {
+            var appLang = 'en';
+        } else if (appLang=='ko') {
+            var appLang = 'ko';
+        } else {
+            var appLang = 'en';
         }
 
         window.location.replace("/update/update." + appLang ".&v=" + appVersion);
