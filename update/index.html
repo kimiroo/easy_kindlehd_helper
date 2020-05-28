@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    
-    <title>Loading updater...</title>
+    <meta charset="utf-8">  
+    <title>Redirecting...</title>
 </head>
 <body>
 
     <!-- Redirection Script -->
     <script>
         var urlParams = new URLSearchParams(window.location.search);
-    
         var appVersion = urlParams.get('v');
-        var appLang = urlParams.get('l');
 
-        if (appLang=='en') {
-            var appLang = 'en';
-        } else if (appLang=='ko') {
-            var appLang = 'ko';
+        var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+               navigator.language ||   // All browsers
+               navigator.userLanguage; // IE <= 10
+
+        if (language=="ko-KR") {
+            window.location.replace("/ko-KR/update/?v=" + appVersion);
         } else {
-            var appLang = 'en';
+            window.location.replace("/en-US/update/?v=" + appVersion);
         }
-
-        window.location.replace("/update/update." + appLang + ".html?&v=" + appVersion);
     </script>
 </body>
 </html>

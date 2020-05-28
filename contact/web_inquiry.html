@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-  <title>Web Inquiry</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <meta charset="utf-8">  
+    <title>Redirecting...</title>
 </head>
-
 <body>
-    <!-- Page Content -->
-    <div class="container">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScgO47vn7ITogJ7JsRhhaxqIXliMj2gvvWrsUYUYyHxsypUCA/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Redirection Script -->
+    <script>
+        var language = navigator.languages && navigator.languages[0] || // Chrome / Firefox
+               navigator.language ||   // All browsers
+               navigator.userLanguage; // IE <= 10
+
+        if (language=="ko-KR") {
+            window.location.replace("/ko-KR/contact/web_inquiry.html");
+        } else {
+            window.location.replace("/en-US/contact/web_inquiry.html");
+        }
+    </script>
 </body>
 </html>
