@@ -1,0 +1,34 @@
+{
+  "app": "cc.darak.firehd.helper",
+  "latestVersion": 4,
+  "latestBuild": "NA_LATEST_PLACEHOLDER",
+  "latestURL": "https://github.com/kimiroo/easy_kindlehd_helper/releases/download/v0.0.0.1-alpha/latest.apk",
+  "versionHistory": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "History": {
+    "1": {
+      "Version": 1,
+      "Build": "NA",
+      "Release": "ALPHA"
+    },
+    "2": {
+      "Version": 2,
+      "Build": "NA",
+      "Release": "ALPHA"
+    },
+    "3": {
+      "Version": 3,
+      "Build": "3.0.2.254_all-khd10 (DARAK)",
+      "Release": "ALPHA"
+    },
+    "4": {
+      "Version": 4,
+      "Build": "NA_LATEST_PLACEHOLDER",
+      "Release": "BETA"
+    }
+  }
+}
