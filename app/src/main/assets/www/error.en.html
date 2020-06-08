@@ -1,0 +1,59 @@
+<!-- app/src/main/assets/www/error.html  -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+<div style="width:90%; margin:0 auto;">
+    <h1 style="text-align:center; font-size:45px; color:#292929; margin-bottom:45px; font-family:'돋움', dotum, '굴림', gulim, arial, helvetica, sans-serif;">Oops!</h1>
+    <p style="font-size:14px; color:#292929; font-weight:bold;text-align:center; margin-bottom:25px; font-family:'돋움', dotum, '굴림', gulim, arial, helvetica, sans-serif;">
+        Unexpected error has occured. Try again later.
+    </p>
+    <ul style="margin:25px auto; width:80%; color:#47597f; font-size:14px; text-align:left; background-color:#e5eaf5; padding:15px 25px; line-height:150%; list-style:none; border:1px solid #cfd8ec; font-family:'돋움', dotum, '굴림', gulim, arial, helvetica, sans-serif;">
+        <center>Details</center><br>
+        Error code: <font id="error-code" color="#e80000"></font><br>
+        Error detail: <span id="error-detail"></span>
+        Solution: <span id="error-guide"></span><br>
+    </ul>
+    <p style="background-color:#2357ac; padding:10px; margin:0 auto; width:200px; text-align:center; font-family:'돋움', dotum, '굴림', gulim, arial, helvetica, sans-serif;">
+        <a style="font-size:13px; color:#FFF; text-decoration:none; font-family:'돋움', dotum, '굴림', gulim, arial, helvetica, sans-serif;" onClick="history.go(-1);">Refresh</a>
+    </p>
+</div>
+</body>
+
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+
+    var errorCode = urlParams.get('errorCode');
+    var errorDescription = urlParams.get('errorDescription');
+
+    document.getElementById("error-code").innerHTML = errorDescription;
+    
+    switch(errorCode) {
+        case '-2':
+            document.getElementById('error-detail').innerHTML = 'Cannot access the Internet.<br>';
+            document.getElementById('error-guide').innerHTML = 'Check your Wi-Fi.<br>';
+            break;
+        case '-11':
+            document.getElementById('error-detail').innerHTML = 'Failed to perform SSL handshake.<br>';
+            document.getElementById('error-guide').innerHTML = 'Check your proxy settings or the Internet connection.<br>';
+            break;
+        case '-9':
+            document.getElementById('error-detail').innerHTML = 'Too many redirects. Might be temporary server issue or may be Internet connection issue.<br>';
+            document.getElementById('error-guide').innerHTML = 'Please try again in a few minutes or check your Internet connection.<br>';
+            break;
+        case '-8':
+            document.getElementById('error-detail').innerHTML = 'Connection timed out.<br>';
+            document.getElementById('error-guide').innerHTML = 'Please try again in a few minutes or check your Internet connection.<br>';
+            break;
+        default:
+            document.getElementById('error-detail').innerHTML = 'Unknown error occured.<br>';
+            document.getElementById('error-guide').innerHTML = 'This is likely a temporary error. Please try again in a few minutes.<br>';
+            break;
+    }
+</script>
+
+</html>

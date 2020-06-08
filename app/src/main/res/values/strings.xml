@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire HD Helper</string>
+    <string name="n" translatable="false">\n</string>
+    <string name="lang">en-US</string>
+    <string name="appRelease" translatable="false">ALPHA</string>
+    <string name="buildNumber" translatable="false">4</string>
+    <string name="folderName" translatable="false">khdhelper</string>
+    <string name="apkName" translatable="false">khdhelper.apk</string>
+
+    <!--URL-->
+    <string name="url_base" translatable="false">https://khd.4dollar.tk</string>
+    <string name="url_ohelp" translatable="false">/kb</string>
+    <string name="url_con_e" translatable="false">mailto:contact@darak.cc</string>
+    <string name="url_con_w" translatable="false">/contact/web_inquiry.html</string>
+
+    <!--Notification-->
+    <string name="noti_boot_channel">Startup reminder</string>
+    <string name="noti_title">Notes on usage of the Fire HD Tablet</string>
+    <string name="noti_short">Read the precautions before using the tablet.</string>
+    <string name="noti_long">Read the precautions before using the tablet.\nHere\'s some important notes you should read before using the Fire HD tablet. Click here for more information.</string>
+    <string name="noti_ee_title">Easter Eggggggggggggggggg</string>
+    <string name="noti_ee_channel">Easter Egg</string>
+    <string name="noti_ee_text">You activated the holy Easter Eggggggggggggggggg :)</string>
+
+
+    <!--MainActivity-->
+    <string name="main_title">@string/app_name</string>
+    <string name="desc_warn">Please read me before using the tablet</string>
+    <string name="desc_man">Some useful tips inside</string>
+    <string name="desc_ohel">Get the latest information on online</string>
+    <string name="desc_eeresc">Want to stop the EGG from messing around?</string>
+    <string name="main_ab">About this app</string>
+
+    <!--AboutPage-->
+    <string name="ab_title">About</string>
+    <string name="ab_t1">Version: </string>
+    <string name="ab_t2">Release: </string>
+    <string name="btn_up">Check for an Update</string>
+    <string name="btn_con">Contact the Developer</string>
+    <string name="txt_hun">I\'m hungry. Help me out.</string>
+    <string name="pre_egg1">Oooo, what could be in here? Click more to find out!</string>
+    <string name="pre_egg2"> more click(s) to go!</string>
+    <string name="pre_egg3">Welcome to the world of THE iDOLM@STER!</string>
+    <string name="ab_p_ht">How to help hunger</string>
+    <string name="ab_p_hp">There\'s some magic hidden inside the version information. Click the version information to find out more!</string>
+    <string name="ab_p_hy">OK</string>
+    <string name="ab_p_ct">Contact method</string>
+    <string name="ab_p_cp">Choose your preferred contact method.</string>
+    <string name="ab_p_ce">Email</string>
+    <string name="ab_p_cw">Web</string>
+    <string name="ab_p_toast">Let\'s do some magic right now!</string>
+
+    <!--OnlineHelpPage-->
+    <string name="ohelp_title">Online Help</string>
+    <string name="ohelp_mn_home">Home</string>
+    <string name="ohelp_mn_refresh">Refresh</string>
+    <string name="ohelp_mn_back">Back</string>
+    <string name="ohelp_mn_forward">Forward</string>
+
+    <!--ManualPage-->
+    <string name="man_title">Manual</string>
+    <string name="man_t1">Changing the system language</string>
+    <string name="man_p1">\t\t 1. Open \"Language Enabler\" app.\n
+        \t\t2. Change your device\'s system language within the app.</string>
+    <string name="man_t2">How to hide apps from the launcher</string>
+    <string name="man_p2">\t\t 1. Open app drawer.\n
+        \t\t2. Long press app icon.\n
+        \t\t3. Click customization.\n
+        \t\t4. Check \'hide app\'.</string>
+    <string name="man_t3">How to unhide apps in the launcher</string>
+    <string name="man_p3">\t\t 1. Long press home screen.\n
+        \t\t2. Click \'Home settings\'.\n
+        \t\t3. Click \'App Drawer\'.\n
+        \t\t4. Click \'Hidden App Shortcuts\'.\n
+        \t\t5. Uncheck checked apps to unhide.</string>
+    <string name="man_t4">Changing the wallpaper</string>
+    <string name="man_p4">\t\t 1. Long press home screen.\n
+        \t\t2. Click \'Wallpapers\'.\n
+        \t\t(NOTE: Lock screen wallpaper is tied up to the home screen wallpaper.)</string>
+    <string name="man_t5">How to take screenshot</string>
+    <string name="man_p5">\t\t Press Power + Volume up button\n
+        \t\tOr\n
+        \t\t1. Hold down the power button.\n
+        \t\t2. Click \'Screenshot\'.</string>
+    <string name="man_t6">Surfing the web without ads</string>
+    <string name="man_p6">\t\t Use \'Samsung Internet\' app.</string>
+    <string name="man_t7">Changing the home launcher app</string>
+    <string name="man_p7">\t\t 1. Install the desired launcher on the Play store.\n
+        \t\t2. (CRITICAL) Press home button and test your new launcher.\n
+        \t\t3. (Optional) Go to Settings → Apps and Notification → Apps → Previous Launcher app details → Uninstall (MAKE SURE YOU HAVE NEW LAUNCHER INSTALLED AND WORKING)\n
+        \t\t4. Press home button and set your new home launcher as default. </string>
+    <string name="man_t8">Changing the keyboard app</string>
+    <string name="man_p8">\t\t 1. Install the desired keyboard on the Play store.\n
+        \t\t2. Go to Settings → Device Options → Keyboard &amp; Language → Screen Keyboard\n
+        \t\t3. Set your new keyboard as default keyboard and test the input.\n
+        \t\t4. (Optional) Go to Settings → Apps → Previous Keyboard app details → Uninstall (MAKE SURE YOU HAVE NEW KEYBOARD INSTALLED AND WORKING) </string>
+
+    <!--WarningPage-->
+    <string name="warn_title">Warning</string>
+    <string name="warn_t1">Before using the tablet, please read this carefully.</string>
+    <string name="warn_p1">This device has been modified to enable Google services and disable Amazon functions. This modification may cause unexpected behavior or limit some features. Follow the following guidelines to use your device safely.</string>
+    <string name="warn_t2">Warning:</string>
+    <string name="warn_p2">\t - Patches applied to the device may become obsolete at any time.\n
+        \t- Patches are user-made. Patches may not work perfectly.\n
+        \t- Some of the device features may not work correctly.\n
+        \t- This is Amazon proprietary device. Some of the apps may not install or work correctly.\n
+        \t- Some of the tasks require a PC to accomplish. (e.g. updating patches, disabling Amazon apps)\n
+        \t- The patches may require an update. If so, contact nearby tech nerd for help.\n
+        \t- You may need to connect to PC occasionally to make sure the patches are running via special tool.\n
+        \t- This manual and warnings are subject to change. Check online manual for the latest information.</string>
+    <string name="warn_t3">Not following the following may make patches obsolete:</string>
+    <string name="warn_p3">\t - Do not perform a system update.\n
+        \t- Do not re-enable disabled apps.\n
+        \t- Do not login to Amazon account.\n
+        \t- Do not register your device on Amazon.\n
+        \t- Press \'skip\' when Amazon login page or setup page pops up.\n
+        \t-	Do not uninstall the following apps:\n
+        \t\t\t* Automate (com.llamalab.automate)\n
+        \t\t\t* Automate settings permissions (com.llamalab.automate.ext.settings)\n
+        \t\t\t* Automate storage permissions (com.llamalab.automate.ext.storage)\n
+        \t\t\t* ParentalControlHide (me.raffy909.parentalcontrolhide)</string>
+    <string name="warn_t4">Not following the following may make your device unusable:</string>
+    <string name="warn_p4">\t - Do not uninstall all home launcher. (Keep at least one 3rd party launcher installed)\n
+        \t\t(Original home launcher is disabled. Uninstalling all 3rd party launcher will lock you out.)\n
+        \t- Do not uninstall all keyboard app. (Keep at least one 3rd party keyboard installed)\n
+        \t\t(Original keyboard is disabled. Uninstalling all 3rd party keyboard will disable whole keyboard functionality.)\n
+        \t- Do not uninstall the following apps. Uninstalling following apps will disable all Google services:\n
+        \t\t\t* Google Account Manager (com.google.android.gsf.login)\n
+        \t\t\t* Google Play Services  (com.google.android.gms)\n
+        \t\t\t* Google Play Store (com.android.vending)\n
+        \t\t\t* Google Services Framework (com.google.android.gsf)</string>
+    <string name="warn_t5">Not following the following may disable some features:</string>
+    <string name="warn_p5"> - Do not uninstall the following apps:\n
+        \t\t\t*	AdGuard Content Blocker (com.adguard.android.contentblocker)\n
+        \t\t\t* Calander (com.simplemobiletools.calendar)\n
+        \t\t\t* Contacts (com.simplemobiletools.contacts)\n
+        \t\t\t* Clock (com.google.android.deskclock)\n
+        \t\t\t* Gallery (com.simplemobiletools.gallery)\n
+        \t\t\t* Google (com.google.android.googlequicksearchbox)\n
+        \t\t\t* Google Assistant Launcher (com.hybridevelopers.assistant)\n
+        \t\t\t* Vanced MicroG - 0.2.6.17455 (com.mgoogle.android.gms)\n
+        \t\t\t* Wallpapers (com.google.android.apps.wallpaper)</string>
+    <string name="warn_t6">Notes:</string>
+    <string name="warn_p6">\t - You cannot rearrange quick settings menu on this tablet.</string>
+
+    <!--EasterEgg-->
+    <string name="nowp">Now playing:</string>
+    <string name="nowp_title">Onegai! Cinderella</string>
+    <string name="alb">Album:</string>
+    <string name="alb_n">THE IDOLM@STER CINDERELLA GIRLS</string>
+    <string name="play">A pause button which doesn\'t do anything lol</string>
+    <string name="next">A next song button which doesn\'t do anything lol</string>
+    <string name="back">A previous song button which doesn\'t do anything lol</string>
+    <string name="ee_t_g">Since you loved the iDOLM@STER so much, I think you will love this too!</string>
+    <string name="ee_t_c_1">You clicked the iDOLM@STER </string>
+    <string name="ee_t_c_2"> time(s)! You must have really liked it!</string>
+    <string name="g_toast">G.A.Y</string>
+    <string name="ur_in_g">Welcome to the ANG♂ Centre!</string>
+
+    <!--EERescue-->
+    <string name="eeresc_title">Easter Egg Helper</string>
+    <string name="eersc_t1">Tired of Easter Egg?</string>
+    <string name="eersc_p1">Are you tired of the easter egg starting up at boot and playing music? Well, you can now disable the easter egg! You just have to agree on the following terms.</string>
+    <string name="eersc_agr_t1">I have read all of the warnings and guides.</string>
+    <string name="eersc_agr1">By agreeing to this, it means you have read all of the warnings and guides that are on this app(including the online manual), and you will not ask the developer about issues that are already addressed in this app.</string>
+    <string name="eersc_chk1">I agree</string>
+    <string name="eersc_agr_t2">Term of \'I LOVE THE IDOLM@STER\'.</string>
+    <string name="eersc_agr2">By agreeing to this, you agree that YOU HATE THE WHOLE LOVE LIVE! SERIES, CHARACTERS, and SONGS, and YOU LOVE THE WHOLE IDOLM@STER SERIES, CHARACTERS, and SONGS from this point. Also, you agree that no matter how much your friends praise the iDOLM@STER series and play the iDOLM@STER songs, you will not complain about it. And lastly, you agree that you will praise and spread the iDOLM@STER to other people.</string>
+    <string name="eersc_chk2">I agree</string>
+    <string name="eersc_agr_t3">Term of \'the follower\'.</string>
+    <string name="eersc_agr3">By agreeing to this, you agree that you will never talk back to Yongjun Kim, the developer, do whatever he tells you to do so, and follow him. You also agree that this relationship will last until Yongjun Kim says that this relationship is over.</string>
+    <string name="eersc_chk3">I agree</string>
+    <string name="eersc_fin_ch">I agree with all of the above</string>
+    <string name="eersc_disarm">DISARM THE EGG</string>
+    <string name="eersc_p_t">Final confirmation</string>
+    <string name="eersc_p_p">Do you really agree with all of the terms above?</string>
+    <string name="eersc_p_y">YES, I AGREE</string>
+    <string name="eesrc_p_n">NO, I DO NOT AGREE</string>
+    <string name="eesrc_t_disabled">EGG DISARMED</string>
+    <string name="eesrc_t_c">CANCELLED</string>
+    <string name="eesrc_t_bad">You have to agree on all of the terms!</string>
+
+    <!--Updater-->
+    <string name="upd_title">Updater</string>
+    <string name="upd_t_cver">Current Version:</string>
+    <string name="upd_t_lver">Latest Version:</string>
+
+    <string name="upd_btn_upd">Check for an Update</string>
+    <string name="upd_btn_down">Download Update</string>
+    <string name="upd_btn_down_ing">Downloading...</string>
+    <string name="upd_btn_down_inst">Install Update</string>
+
+    <string name="upd_lver_checking">Fetching data...</string>
+    <string name="upd_lver_error">ERROR</string>
+
+    <string name="upd_stat_checking">Checking for an update...</string>
+    <string name="upd_stat_latest">You are on the latest version</string>
+    <string name="upd_stat_error">An error occured while checking update</string>
+    <string name="upd_stat_update">An update is available to install</string>
+
+
+    <string name="upd_dfin">Download finished. File:</string>
+    <string name="upd_dia_t">Install update</string>
+    <string name="upd_dia_p">Do you want to install update now?</string>
+    <string name="upd_dia_y">Yes</string>
+    <string name="upd_dia_n">No</string>
+    <string name="upd_toast_cancelled">Update cancelled</string>
+
+    <!--UpdaterService-->
+    <string name="upd_s_ing">Checking for an update...</string>
+    <string name="upd_s_upd">An update available to install</string>
+    <string name="upd_s_re">Update check failed. Retrying...</string>
+    <string name="upd_s_fail">Update check failed.</string>
+
+    <!--DeviceAdmin-->
+    <string name="device_admin_description">Enables additional functions of the app</string>
+    <string name="device_admin_portal_title">Device Admin Settings</string>
+    <string name="disable_admin">Disable Device Admin</string>
+    <string name="disable_restriction">Disable restrictions</string>
+    <string name="enable_restriction">Enable restrictions</string>
+    <string name="info_restriction">These restriction settings only applies\nwhen the app is device owner.</string>
+    <string name="info_disableadmin">This only works when the app is not device owner.</string>
+    <string name="admin_state">Device Admin:</string>
+    <string name="admin_type">Device Admin Type:</string>
+    <string name="admin_s_true">True</string>
+    <string name="admin_s_false">False</string>
+    <string name="admin_t_adm">Device Admin</string>
+    <string name="admin_t_own">Device Owner</string>
+    <string name="admin_t_na">Not Enabled</string>
+    <string name="disable_fail_own">Disable failed. You need to disable via ADB.</string>
+    <string name="disable_fail_not_admin">Device Admin is not enabled.</string>
+    <string name="task_success">Success</string>
+    <string name="task_fail_adm">Task failed. The app has to own the device. Try granting permission via ADB.</string>
+    <string name="ask_admin_text">Device admin is disabled at the moment. Do you want to enable the Device Admin to enable more features?</string>
+    <string name="ask_admin_title">Device admin disabled</string>
+    <string name="ask_admin_y">Yes</string>
+    <string name="ask_admin_n">No</string>
+    <string name="receiver_enabled">Device administrator has been enabled.</string>
+    <string name="receiver_disabled">Device administrator has been disabled.</string>
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire HD 도우미</string>
+    <string name="lang">ko-KR</string>
+
+    <!--Notification-->
+    <string name="noti_title">파이어 HD 태블릿 사용에 관한 알림</string>
+    <string name="noti_short">태블릿을 사용하기 전에 주의사항을 읽어주세요.</string>
+    <string name="noti_long">태블릿을 사용하기 전에 주의사항을 읽어주세요.\n태블릿을 사용하시기 전에 읽어야할 몇가지 주의사항들이 있어요. 여기를 클릭해서 더 알아보세요.</string>
+    <string name="noti_ee_text">이스터 에에에에에ㅔ에그를 작동시켰어요 :)</string>
+
+
+    <!--MainActivity-->
+    <string name="main_title">@string/app_name</string>
+    <string name="desc_warn">태블릿을 사용하기 전에 읽어주세요</string>
+    <string name="desc_man">유용한 팁들이 들어있어요</string>
+    <string name="desc_ohel">온라인에서 최신 정보를 확인하세요</string>
+    <string name="desc_eeresc">달걀이 너무 말썽을 부리나요?</string>
+    <string name="main_ab">이 앱에 대하여</string>
+
+    <!--AboutPage-->
+    <string name="ab_title">정보</string>
+    <string name="ab_t1">버전: </string>
+    <string name="ab_t2">릴리즈: </string>
+    <string name="btn_up">업데이트 확인하기</string>
+    <string name="btn_con">개발자에게 연락하기</string>
+    <string name="txt_hun">배고파요. 도와주세요.</string>
+    <string name="pre_egg1">엇? 여기에 뭐가 있는걸까요? 좀 더 눌러봐요!</string>
+    <string name="pre_egg2">번만 더 클릭하면 돼요!</string>
+    <string name="pre_egg3">THE iDOLM@STER!의 세계에 오신 것을 환영합니다!</string>
+    <string name="ab_p_ht">배고픔을 달래는 방법</string>
+    <string name="ab_p_hp">버전 정보에 마법이 숨겨져 있대요! 버전 정보를 클릭해서 알아봐요!</string>
+    <string name="ab_p_hy">확인</string>
+    <string name="ab_p_ct">연락 방법</string>
+    <string name="ab_p_cp">선호하는 연락 방법을 선택해 주세요.</string>
+    <string name="ab_p_ce">이메일</string>
+    <string name="ab_p_cw">웹 양식</string>
+    <string name="ab_p_toast">지금 바로 마법을 찾아봐요!</string>
+
+    <!--OnlineHelpPage-->
+    <string name="ohelp_title">온라인 도움말</string>
+    <string name="ohelp_mn_home">온라인 홈</string>
+    <string name="ohelp_mn_refresh">새로고침</string>
+    <string name="ohelp_mn_back">뒤로 가기</string>
+    <string name="ohelp_mn_forward">앞으로 가기</string>
+
+    <!--ManualPage-->
+    <string name="man_title">사용 설명서</string>
+    <string name="man_t1">시스템 언어 변경하기</string>
+    <string name="man_p1">\t\t 1. \"Language Enabler\"앱을 실행하세요.\n
+        \t\t2. 앱 내에서 시스템 언어를 변경하세요.</string>
+    <string name="man_t2">홈 런처에서 앱 숨기기</string>
+    <string name="man_p2">\t\t 1. 앱 서랍을 여세요.\n
+        \t\t2. 숨기고자 하는 앱 아이콘을 길게 누르세요.\n
+        \t\t3. \'개인화\'를 누르세요.\n
+        \t\t4. \'앱 숨기기\'를 활성화하세요.</string>
+    <string name="man_t3">홈 런처에서 숨긴 앱 다시 보이기</string>
+    <string name="man_p3">\t\t 1. 홈 화면을 길게 누르세요.\n
+        \t\t2. \'홈 설정\'을 누르세요.\n
+        \t\t3. \'앱 서랍\'을 누르세요.\n
+        \t\t4. \'Hidden App Shortcuts\'을 누르세요.\n
+        \t\t5. 다시 보이고자 하는 앱을 비활성화 하세요.</string>
+    <string name="man_t4">배경화면 설정하기</string>
+    <string name="man_p4">\t\t 1. 홈 화면을 길게 누르세요.\n
+        \t\t2. \'배경화면\'을 선택하세요.\n
+        \t\t(주의: 잠금화면 이미지는 따로 설정할 수 없어요.)</string>
+    <string name="man_t5">스크린샷 찍기</string>
+    <string name="man_p5">\t\t 전원버튼과 볼륨 상 버튼을 함께 누르세요\n
+        \t\t또는\n
+        \t\t1. 전원버튼을 길게 누르세요.\n
+        \t\t2. \'스크린샷\'을 누르세요.</string>
+    <string name="man_t6">광고 없이 인터넷 서핑하기</string>
+    <string name="man_p6">\t\t \'삼성 인터넷\'을 사용하세요.</string>
+    <string name="man_t7">홈 런처 앱 바꾸기</string>
+    <string name="man_p7">\t\t 1. 원하는 런처 앱을 Play 스토어에서 설치하세요.\n
+        \t\t2. (중요) 홈버튼을 누르고 새 런처를 시험해 보세요.\n
+        \t\t3. (선택사항) 설정 → 앱 및 알림 → 앱 정보 → 이전 런처 앱 정보 → 제거 (중요: 제거하기 전에 새로운 런처 앱이 제대로 작동하는지 확인하세요)\n
+        \t\t4. 홈버튼을 누르고 새 런처를 기본 런처로 설정하세요.</string>
+    <string name="man_t8">키보드 앱 바꾸기</string>
+    <string name="man_p8">\t\t 1. 원하는 키보드 앱을 Play 스토어에서 설치하세요.\n
+        \t\t2. 설정 → Device Options → Keyboard &amp; Language → 현재 키보드\n
+        \t\t3. 새 키보드를 기본 키보드로 설정한 뒤 키보드를 테스트해보세요.\n
+        \t\t4. (선택사항) 설정 → 앱 및 알림 → 앱 정보 → 이전 키보드 앱 정보 → 제거 (중요: 제거하기 전에 새로운 키보드 앱이 제대로 작동하는지 확인하세요) </string>
+
+    <!--WarningPage-->
+    <string name="warn_title">주의사항</string>
+    <string name="warn_t1">태블릿을 사용하기 전에 다음 내용을 주의깊게 읽어주세요.</string>
+    <string name="warn_p1">이 기기는 아마존 기능들을 비활성화 하고 구글 기능들을 탑재시키기 위해 개조되었습니다. 이러한 개조는 예상치 못한 작동이나 일부 기능의 제한을 초래할 수 있습니다. 안전하게 사용하기 위해서 다음 지침을 따라주세요.\n
+        태블릿의 한글 지원이 불완전합니다. 한글 지원이 완벽하지 않을 수 있습니다. </string>
+    <string name="warn_t2">주의:</string>
+    <string name="warn_p2">\t - 적용된 패치들은 아마존에 의해 무효화될 수 있습니다.\n
+        \t- 적용된 패치들은 커뮤니티에 의해 제작되었습니다. 따라서 패치들은 완벽하지 않을 수 있습니다.\n
+        \t- 기기의 몇몇 기능들은 제대로 동작하지 않을 수도 있습니다.\n
+        \t- 이 기기는 아마존 전용 기기입니다. 몇몇 앱들은 설치되지 않거나 제대로 동작하지 않을 수 있습니다.\n
+        \t- 몇몇 작업들은 컴퓨터 연결을 필요로 합니다. (예: 패치 업데이트, 아마존 앱 비활성화)\n
+        \t- 간혹 패치들을 업데이트 해야할 수 있습니다. 이러한 경우 주변에 있는 컴덕에게 도움을 요청하세요.\n
+        \t- 가끔씩 컴퓨터에 연결한 뒤 전용 도구를 통해 패치들이 정상적으로 작동하고 있는지 확인해야할 수도 있습니다.\n
+        \t- 이 주의사항과 사용 설명서는 언제든지 변경될 수 있습니다. 온라인 도우말을 통해 최신 정보를 참조하세요.</string>
+    <string name="warn_t3">다음 사항을 따르지 않을 경우 적용된 패치가 효력을 잃게 됩니다:</string>
+    <string name="warn_p3">\t - 시스템 업데이트를 실행하지 마세요.\n
+        \t- 비활성화된 앱을 열거나 활성화하지 마세요.\n
+        \t- 아마존 계정에 로그인하지 마세요.\n
+        \t- 기기를 아마존에 등록하지 마세요.\n
+        \t- 아마존 관련 창이 뜰 경우 \'skip\' 버튼을 누르세요.\n
+        \t-	다음 앱들을 제거하지 마세요:\n
+        \t\t\t* Automate (com.llamalab.automate)\n
+        \t\t\t* Automate settings permissions (com.llamalab.automate.ext.settings)\n
+        \t\t\t* Automate storage permissions (com.llamalab.automate.ext.storage)\n
+        \t\t\t* ParentalControlHide (me.raffy909.parentalcontrolhide)</string>
+    <string name="warn_t4">다음 사항을 따르지 않을 경우 기기가 사용 불가상태에 빠질 수 있습니다:</string>
+    <string name="warn_p4">\t - 홈 런처를 모두 제거하지 마세요. (최소한 하나 이상 설치한 상태를 유지하세요.)\n
+        \t\t(현재 기본 탑재된 홈 런처가 비활성화된 상태입니다. 이 상태에서 모든 제3자 런처 앱을 제거할 경우 사용 불능 상태에 빠집니다.)\n
+        \t- 키보드 앱을 모두 제거하지 마세요. (최소한 하나 이상 설치한 상태를 유지하세요.)\n
+        \t\t(현재 기본 탑재된 키보드 앱이 비활성화된 상태입니다. 이 상태에서 모든 제3자 키보드 앱을 제거할 경우 모든 키 입력을 할 수 없게 됩니다.)\n
+        \t- 다음 앱들을 제거하지 마세요. 다음 앱을 제거할 경우 모든 Google 서비스들을 사용할 수 없게 됩니다:\n
+        \t\t\t* Google 계정 관리자 (com.google.android.gsf.login)\n
+        \t\t\t* Google Play 서비스  (com.google.android.gms)\n
+        \t\t\t* Google Play 스토어 (com.android.vending)\n
+        \t\t\t* Google Services Framework (com.google.android.gsf)</string>
+    <string name="warn_t5">다음 사항을 따르지 않을 경우 일부 기능을 사용할 수 없게됩니다:</string>
+    <string name="warn_p5"> - 다음 앱들을 제거하지 마세요:\n
+        \t\t\t* 갤러리 (com.simplemobiletools.gallery)\n
+        \t\t\t* 배경화면 (com.google.android.apps.wallpaper)\n
+        \t\t\t* 시계 (com.google.android.deskclock)\n
+        \t\t\t* 연락처 (com.simplemobiletools.contacts)\n
+        \t\t\t* 캘린더 (com.simplemobiletools.calendar)\n
+        \t\t\t*	AdGuard Content Blocker (com.adguard.android.contentblocker)\n
+        \t\t\t* Google (com.google.android.googlequicksearchbox)\n
+        \t\t\t* Google Assistant Launcher (com.hybridevelopers.assistant)\n
+        \t\t\t* Vanced MicroG - 0.2.6.17455 (com.mgoogle.android.gms)</string>
+    <string name="warn_t6">알림:</string>
+    <string name="warn_p6">\t - 이 태블릿에서는 퀵 설정 메뉴를 편집할 수 없습니다.</string>
+
+    <!--EasterEgg-->
+    <string name="nowp">재생중:</string>
+    <string name="nowp_title">부탁해! 신데렐라</string>
+    <string name="alb">앨범:</string>
+    <string name="alb_n">THE IDOLM@STER CINDERELLA GIRLS</string>
+    <string name="play">아무것도 하지 않는 일시정지 버튼 엌ㅋ</string>
+    <string name="next">아무것도 하지 않는 다음 곡 버튼 엌ㅋ</string>
+    <string name="back">아무것도 하지 않는 이전 곡 버튼 엌ㅋ</string>
+    <string name="ee_t_g">이번에는 이것을 준비해 봤어요!</string>
+    <string name="ee_t_c_1">THE iDOLM@STER 을 클릭하셨네요!</string>
+    <string name="ee_t_c_2"> 번 클릭하셨어요! 마음에 진짜 드셨나봐요!</string>
+    <string name="g_toast">G.A.Y</string>
+    <string name="ur_in_g">ANG♂ 센터에 오신 것을 환영합니다!</string>
+
+    <!--EERescue-->
+    <string name="eeresc_title">이스터 에그 도우미</string>
+    <string name="eersc_t1">이스터 에그 때문에 힘드신가요?</string>
+    <string name="eersc_p1">이스터 에그가 부팅할 때 마다 음악을 틀어서 힘드신가요? 이제 이스터 에그를 비활성화 하실 수 있습니다! 다음 항목에 모두 동의하시기만 하면 됩니다.</string>
+    <string name="eersc_agr_t1">모든 주의사항과 사용 설명서를 읽었습니다.</string>
+    <string name="eersc_agr1">이 항목에 동의함으로써, 당신은 이 앱에 탑재된 모든 주의사항과 사용 설명서, 그리고 온라인 도움말을 읽었다는 것을 의미하며 ,이 앱에서 명시된 문제에 대해 개발자에게 문의하지 않을 것을 동의합니다.</string>
+    <string name="eersc_chk1">동의합니다</string>
+    <string name="eersc_agr_t2">\'THE IDOLM@STER\' 조항.</string>
+    <string name="eersc_agr2">이 항목에 동의함으로써, 당신은 이 시점부터 모든 러브 라이브! 시리즈와 캐릭터, 음반을 싫어하며, 아이돌 마스터의 모든 시리즈와 캐릭터, 음반을 사랑한다는 것에 동의합니다. 또한, 당신의 친구들이 THE iDOLM@STER 시리즈를 얼마나 칭찬하고 THE iDOLM@STER시리즈의 곡을 재생해도 불평하지 않을 것에 동의합니다. 마지막으로 당신은 THE iDOLM@STER을 찬양하고 다른 사람들에게 전파할 것에 동의합니다.</string>
+    <string name="eersc_chk2">동의합니다</string>
+    <string name="eersc_agr_t3">\'추종자\' 조항.</string>
+    <string name="eersc_agr3">이에 동의함으로써 당신은 개발자인 김용준에게 절대 반문하지 않고, 그가 시키는 대로 하고, 그를 따르겠다는 것에 동의합니다. 이러한 관계는 김용준이 이 관계가 끝났다고 말할 때까지 지속될 것에 동의합니다.</string>
+    <string name="eersc_chk3">동의합니다</string>
+    <string name="eersc_fin_ch">위의 모든 항목에 동의함</string>
+    <string name="eersc_disarm">달걀 해제하기</string>
+    <string name="eersc_p_t">최종 확인</string>
+    <string name="eersc_p_p">위 항목들에 진심으로 동의하십니까?</string>
+    <string name="eersc_p_y">예, 동의합니다</string>
+    <string name="eesrc_p_n">아니오, 동의하지 않습니다</string>
+    <string name="eesrc_t_disabled">달걀 해제 완료</string>
+    <string name="eesrc_t_c">취소됨</string>
+    <string name="eesrc_t_bad">모든 항목에 동의해야 해요!</string>
+    <string name="noti_boot_channel">시작 알림</string>
+    <string name="noti_ee_channel">이스터 에그</string>
+    <string name="upd_title">앱 업데이트</string>
+    <string name="upd_t_cver">현재 버전:</string>
+    <string name="upd_t_lver">최신 버전:</string>
+    <string name="upd_btn_upd">업데이트 확인</string>
+    <string name="upd_btn_down">업데이트 다운로드</string>
+    <string name="upd_btn_down_ing">다운로드 중...</string>
+    <string name="upd_btn_down_inst">업데이트 설치</string>
+    <string name="upd_lver_checking">불러오는 중...</string>
+    <string name="upd_lver_error">오류</string>
+    <string name="upd_stat_checking">업데이트 확인 중...</string>
+    <string name="upd_stat_latest">최신 버전을 사용 중이에요</string>
+    <string name="upd_stat_error">업데이트 확인 중 오류가 발생했어요</string>
+    <string name="upd_stat_update">설치 가능한 업데이트가 있어요</string>
+    <string name="upd_dfin">다운로드를 완료했어요. 위치:</string>
+    <string name="upd_dia_t">업데이트 설치</string>
+    <string name="upd_dia_p">지금 업데이트를 설치하시겠어요?</string>
+    <string name="upd_dia_y">예</string>
+    <string name="upd_dia_n">아니요</string>
+    <string name="upd_toast_cancelled">업데이트가 취소되었어요</string>
+    <string name="upd_s_ing">업데이트 확인 중...</string>
+    <string name="upd_s_upd">설치 가능한 업데이트가 있어요.</string>
+    <string name="upd_s_re">업데이트 확인에 실패했어요. 다시 시도하는 중이에요.</string>
+    <string name="upd_s_fail">업데이트 확인에 실패했어요.</string>
+    <string name="admin_t_adm">장치 관리자</string>
+    <string name="admin_t_own">장치 소유자</string>
+    <string name="admin_t_na">비활성화 됨</string>
+    <string name="disable_fail_own">비활성화 실패. ADB를 통해 비활성화 해보세요.</string>
+    <string name="disable_fail_not_admin">장치 관리자가 활성화되어있지 않아요.</string>
+    <string name="task_success">성공</string>
+    <string name="task_fail_adm">작업 실패. 앱이 장치를 소유하고 있지 않아요. ADB를 통해 권한을 부여해주세요.</string>
+    <string name="admin_s_true">예</string>
+    <string name="admin_s_false">아니오</string>
+    <string name="admin_state">장치 관리자:</string>
+    <string name="admin_type">관리자 권한 종류:</string>
+    <string name="ask_admin_y">예</string>
+    <string name="ask_admin_n">아니요</string>
+    <string name="ask_admin_title">장치 관리자 활성화</string>
+    <string name="ask_admin_text">현재 장치 관리자가 비활성화 되어있어요. 장치 관리자를 활성하여 더 많은 기능을 활성화 하시겠어요?</string>
+    <string name="disable_restriction">장치 제한 비활성화</string>
+    <string name="enable_restriction">장치 제한 활성화</string>
+    <string name="device_admin_description">앱의 추가 기능을 활성화해요</string>
+    <string name="device_admin_portal_title">장치 관리자 설정</string>
+    <string name="disable_admin">장치 관리자 비활성화</string>
+    <string name="info_restriction">아래의 버튼들은 앱이 장치 소유자 일때만 작동해요.</string>
+    <string name="info_disableadmin">아래의 버튼은 앱이 장치 소유자가 아닐때만 작동해요.</string>
+    <string name="receiver_enabled">장치 관리자가 활성화되었어요.</string>
+    <string name="receiver_disabled">장치 관리자가 비활성화 되었어요.</string>
+    <string name="noti_ee_title">이스터 에에에에에ㅔ에그</string>
+</resources>

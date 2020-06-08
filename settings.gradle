@@ -1,0 +1,2 @@
+rootProject.name='Fire HD Helper'
+include ':app'

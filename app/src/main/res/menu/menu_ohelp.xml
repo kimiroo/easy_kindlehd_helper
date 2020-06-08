@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ohelp_home"
+        android:title="@string/ohelp_mn_home"
+        android:icon="@drawable/ic_home_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ohelp_refresh"
+        android:title="@string/ohelp_mn_refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ohelp_back"
+        android:title="@string/ohelp_mn_back"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ohelp_forward"
+        android:title="@string/ohelp_mn_forward"
+        app:showAsAction="never"/>
+
+</menu>
