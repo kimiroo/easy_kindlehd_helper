@@ -1,15 +1,17 @@
 {
   "app": "cc.darak.firehd.helper",
-  "latestVersion": 6,
-  "latestBuild": "5.2.2.113_all-khd10 (DARAK)",
-  "latestURL": "https://github.com/kimiroo/easy_kindlehd_helper/releases/download/5.2.2.113-beta/FireHDHelper_5.2.2.113.apk",
+  "latestVersion": 7,
+  "latestBuild": "5.3.0.001_all-khd10 (DARAK)",
+  "latestURL": "https://github.com/kimiroo/easy_kindlehd_helper/releases/download/5.3.0.001-beta/FireHDHelper_5.3.0.001.apk",
+  "changeLog": "Fixed permission issues of the updater of the previous version.",
   "versionHistory": [
     1,
     2,
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "History": {
     "1": {
@@ -35,12 +37,20 @@
     "5": {
       "Version": 5,
       "Build": "5.2.1.002_all-khd10 (DARAK)",
-      "Release": "BETA"
+      "Release": "BETA",
+      "changeLog": "Fixed bugs of updater notification service."
     },
     "6": {
       "Version": 6,
       "Build": "5.2.2.113_all-khd10 (DARAK)",
-      "Release": "BETA"
+      "Release": "BETA",
+      "changeLog": "Fixed bugs of updater notification service."
+    },
+    "7": {
+      "Version": 7,
+      "Build": "5.3.0.001_all-khd10 (DARAK)",
+      "Release": "BETA",
+      "changeLog": "Fixed permission issues of the updater of the previous version."
     }
   }
 }
