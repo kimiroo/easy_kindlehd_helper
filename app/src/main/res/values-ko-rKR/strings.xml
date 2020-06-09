@@ -217,4 +217,5 @@
     <string name="receiver_enabled">장치 관리자가 활성화되었어요.</string>
     <string name="receiver_disabled">장치 관리자가 비활성화 되었어요.</string>
     <string name="noti_ee_title">이스터 에에에에에ㅔ에그</string>
+    <string name="upd_alert_title">업데이트 알림</string>
 </resources>

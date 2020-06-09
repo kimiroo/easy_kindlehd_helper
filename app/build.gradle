@@ -8,8 +8,8 @@ android {
         applicationId "cc.darak.firehd.helper"
         minSdkVersion 26
         targetSdkVersion 28
-        versionCode 4
-        versionName '5.2.0.053_all-khd10 (DARAK)'
+        versionCode 7
+        versionName '5.3.0.001_all-khd10 (DARAK)'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

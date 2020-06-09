@@ -3,8 +3,8 @@
     <string name="app_name">Fire HD Helper</string>
     <string name="n" translatable="false">\n</string>
     <string name="lang">en-US</string>
-    <string name="appRelease" translatable="false">ALPHA</string>
-    <string name="buildNumber" translatable="false">4</string>
+    <string name="appRelease" translatable="false">BETA</string>
+    <string name="buildNumber" translatable="false">7</string>
     <string name="folderName" translatable="false">khdhelper</string>
     <string name="apkName" translatable="false">khdhelper.apk</string>
 
@@ -194,6 +194,7 @@
     <string name="upd_lver_checking">Fetching data...</string>
     <string name="upd_lver_error">ERROR</string>
 
+    <string name="upd_alert_title">Update Alert</string>
     <string name="upd_stat_checking">Checking for an update...</string>
     <string name="upd_stat_latest">You are on the latest version</string>
     <string name="upd_stat_error">An error occured while checking update</string>
