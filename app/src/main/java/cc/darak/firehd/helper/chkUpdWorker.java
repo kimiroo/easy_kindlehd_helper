@@ -74,7 +74,7 @@ public class chkUpdWorker extends Worker {
 
         // Periodic Work
         PeriodicWorkRequest.Builder job =
-                new PeriodicWorkRequest.Builder(chkUpdWorker.class, 1, TimeUnit.HOURS)
+                new PeriodicWorkRequest.Builder(chkUpdWorker.class, 4, TimeUnit.HOURS)
                         .setConstraints(myConstraints);
 
         // Create the actual work object:

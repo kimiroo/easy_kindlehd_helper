@@ -81,6 +81,11 @@ public class UpdaterService extends Service {
             stopForeground(false);
             stopSelf();
         }
+
+        if (upd.equals("true")) {
+            NotificationManager notificationManager = (NotificationManager) getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
+            notificationManager.cancel(1000);
+        }
     }
 
     public void chkUpdate() throws InterruptedException {
@@ -122,8 +127,10 @@ public class UpdaterService extends Service {
 
         if (!(i_bN >= i_lv)) {
             Log.e(TAG, "4");
-            Notification.Builder nb4 = getAndroidChannelNotification(getString(R.string.upd_title), getString(R.string.upd_s_upd),true,true);
-            getManager().notify(1000, nb4.build());
+            createAlertChannels();
+            Notification.Builder nb4 = getAndroidAlertChannelNotification(getString(R.string.upd_alert_title), getString(R.string.upd_s_upd),true,true);
+            //getManager().notify(1100, nb4.build());
+            startForeground(1100,nb4.build());
             //startNotification(1000,getString(R.string.upd_title),getString(R.string.upd_s_upd),false,true,true);
             //stopForeground(false);
             upd = "true";
@@ -177,18 +184,49 @@ public class UpdaterService extends Service {
                 .setContentIntent(mPendingIntent);
     }
 
+    public Notification.Builder getAndroidAlertChannelNotification(String title, String body, boolean ongoing, boolean autocancel) {
+
+        // Launch App
+        PendingIntent mPendingIntent = PendingIntent.getActivity(UpdaterService.this, 0,
+                new Intent(getApplicationContext(), Updater.class),
+                PendingIntent.FLAG_UPDATE_CURRENT
+        );
+
+        //Create Notification
+        return new Notification.Builder(getApplicationContext(), getString(R.string.upd_alert_title))
+                .setContentTitle(title)
+                .setContentText(body)
+                .setSmallIcon(R.drawable.ic_stat_name)
+                .setOngoing(ongoing)
+                .setAutoCancel(autocancel)
+                .setContentIntent(mPendingIntent);
+    }
+
 
     private void createChannels() {
 
         // create android channel
         NotificationChannel androidChannel = new NotificationChannel(getString(R.string.upd_title),
-                getString(R.string.upd_title), NotificationManager.IMPORTANCE_DEFAULT);
+                getString(R.string.upd_title), NotificationManager.IMPORTANCE_LOW);
 
-        androidChannel.enableLights(true);
-        androidChannel.enableVibration(true);
+        androidChannel.enableLights(false);
+        androidChannel.enableVibration(false);
         androidChannel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
 
         getManager().createNotificationChannel(androidChannel);
+    }
+
+    private void createAlertChannels() {
+
+        // create android channel
+        NotificationChannel androidAlertChannel = new NotificationChannel(getString(R.string.upd_alert_title),
+                getString(R.string.upd_alert_title), NotificationManager.IMPORTANCE_HIGH);
+
+        androidAlertChannel.enableLights(true);
+        androidAlertChannel.enableVibration(true);
+        androidAlertChannel.setLockscreenVisibility(Notification.VISIBILITY_PUBLIC);
+
+        getManager().createNotificationChannel(androidAlertChannel);
     }
 
     private NotificationManager getManager() {

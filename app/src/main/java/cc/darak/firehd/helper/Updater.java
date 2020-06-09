@@ -53,12 +53,14 @@ public class Updater extends AppCompatActivity {
         setContentView(R.layout.activity_updater);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Intent updService = new Intent(this, UpdaterService.class);
-        stopService(updService);
-
         apkPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + getResources().getString(R.string.folderName);
         apkName = getResources().getString(R.string.apkName);
         f_apkPath = new File(apkPath);
+
+        prepDir();
+
+        Intent updService = new Intent(this, UpdaterService.class);
+        stopService(updService);
 
         TextView textState = (TextView)findViewById(R.id.upd_stat);
         TextView textLVer = (TextView)findViewById(R.id.upd_lver);
@@ -122,6 +124,7 @@ public class Updater extends AppCompatActivity {
         updInst.setEnabled(false);
 
         prepDir();
+        getApk();
     }
 
     public void getApk() {
@@ -231,8 +234,6 @@ public class Updater extends AppCompatActivity {
         if (outputFile.exists()) {
             outputFile.delete();
         }
-
-        getApk();
     }
 
     public void chkUpdate() {
